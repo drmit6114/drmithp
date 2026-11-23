@@ -773,9 +773,9 @@ const products=[
       "검색 운영과 이용 분석",
       "데이터 갱신과 실행 상태를 관리하고, 검색량·무결과·응답 시간으로 개선 대상을 확인합니다."
     ],
-    "url": "https://whereai.kr/",
-    "manufacturer": "Where AI",
-    "homepage": "https://whereai.kr/dream-ai-search.html?v=release-1.9.62",
+    "url": "https://findex.sami-luna.com/",
+    "manufacturer": "SamiTech",
+    "homepage": "https://findex.sami-luna.com/",
     "introSections": [
       {
         "title": "기업 데이터를 검색서비스로",
