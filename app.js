@@ -650,51 +650,99 @@ const products=[
     ]
   },
   {
-    "name": "Where AI",
-    "logo": "assets/where-ai-logo.png",
-    "logoClass": "whereai",
+    "name": "Findex",
+    "color": "#267689",
     "cat": "ai",
-    "icon": "W",
-    "color": "#407268",
-    "desc": "우리 조직의 AI 도입을 위한 제품 검토.",
+    "icon": "<span class=\"security-wordmark\">Findex</span>",
+    "desc": "파일명부터 본문까지, 내용으로 찾는 PC 문서 검색과 AI 비서.",
     "tags": [
-      "AI 솔루션",
-      "제품 정보 확인 예정"
+      "PC 문서 검색",
+      "AI 비서 Luna"
     ],
     "items": [
-      "PC내 파일명과 문서내용 검색",
-      "파일명은 한글 초성으로 검색할 수 있습니다. “ㅈㅇㅅ”을 입력하면 제안서를 찾습니다. 여러 검색어를 입력하면 모든 단어가 포함된 파일을 표시합니다.",
-      "문서 내용으로 검색하면 해당 쪽과 앞뒤 문장을 함께 표시합니다. 검색어는 강조하여 보여 줍니다.",
-      "OCR 문자인식",
-      "스캔문서와 이미지 속 글자를 검색합니다.",
-      "WhereAI는 문자 인식(OCR)으로 이미지 속 글자를 읽어 검색에 활용합니다. 필요한 모델이 설치본에 포함되어 인터넷 없이 처리합니다.",
-      "AI도우미 활용",
-      "문서를 바탕으로 질문과 답변을 합니다.",
-      "외부 AI 서비스나 사내 AI 서버를 연결할 수 있습니다. 조직에 사내 AI가 설정되어 있으면 직원은 개인 인증 키 없이 이용합니다."
+      "빠른 검색 — 파일명·경로로 즉시",
+      "두 글자만 입력하면 파일명·폴더명·경로가 실시간으로 검색",
+      "HWP·PDF·Word·Excel·PPT 등 유형·기간·위치 필터와 미리보기 패널로 바로 확인",
+      "정밀 검색 — 기억나는 문장 하나로",
+      "문서 본문의 단어·구문을 찾아 일치한 페이지와 문장까지 표시",
+      "PDF·HWP는 페이지, PPT는 슬라이드, Excel은 시트 단위로 근거를 보여 줌",
+      "선택형 오프라인 OCR로 스캔 PDF와 이미지 속 글자도 검색",
+      "여러 문서를 대신 읽는 AI 비서 Luna",
+      "“분기 보고서 찾아서 핵심만 정리해줘” 한 문장으로 검색 → 읽기 → 요약까지",
+      "두 문서 비교, 파일을 첨부한 질문, 답변에 인용된 PDF 페이지 바로 열기",
+      "찾은 문서를 그 자리에서 편집",
+      "내장 편집기(SAMI Writer · Spread · Present · PDF)로 찾은 문서를 바로 열고 저장",
+      "내 PC 안에서 처리하는 보안",
+      "인덱싱 · 검색 · OCR은 파일을 외부로 올리지 않고 PC 안에서 처리",
+      "로컬 LLM(Ollama · LM Studio)을 연결하면 인터넷 없이도 AI 기능 사용",
+      "원하는 AI 모델을 자유롭게",
+      "빠른 · 정밀 검색은 LLM 없이도 동작 — Luna와 AI 작업에만 LLM 사용",
+      "SAMI-GPT · OpenAI · Claude · Gemini · OpenRouter · Ollama · LM Studio · OpenAI 호환 연결",
+      "업무 도구와 외부 연동",
+      "일정 관리 · 할 일 앱과 바탕화면 위젯, Luna에게 말로 일정 · 할 일 등록",
+      "연결 센터(MCP)로 웹 검색 · 법령 · HWPX · Excel · Word 문서 도구 연결",
+      "설치와 운영 환경",
+      "Windows 10/11 64비트(x64) 지원, 온라인 · 오프라인 설치 파일 제공으로 폐쇄망 배포 가능",
+      "기관 · 기업 단위 사이트 라이선스 도입 가능"
     ],
-    "url": null,
-    "manufacturer": "Where AI",
-    "homepage": "https://whereai.kr/product.html?v=release-1.9.62",
+    "url": "https://findex.sami-luna.com/",
+    "manufacturer": "SamiTech",
+    "homepage": "https://findex.sami-luna.com/",
     "introSections": [
       {
-        "title": "PC내 파일명과 문서내용 검색",
+        "title": "빠른 검색 — 파일명·경로로 즉시",
         "paragraphs": [
-          "파일명은 한글 초성으로 검색할 수 있습니다. “ㅈㅇㅅ”을 입력하면 제안서를 찾습니다. 여러 검색어를 입력하면 모든 단어가 포함된 파일을 표시합니다.",
-          "문서 내용으로 검색하면 해당 쪽과 앞뒤 문장을 함께 표시합니다. 검색어는 강조하여 보여 줍니다."
+          "두 글자만 입력하면 파일명·폴더명·경로가 실시간으로 검색",
+          "HWP·PDF·Word·Excel·PPT 등 유형·기간·위치 필터와 미리보기 패널로 바로 확인"
         ]
       },
       {
-        "title": "OCR 문자인식",
+        "title": "정밀 검색 — 기억나는 문장 하나로",
         "paragraphs": [
-          "스캔문서와 이미지 속 글자를 검색합니다.",
-          "WhereAI는 문자 인식(OCR)으로 이미지 속 글자를 읽어 검색에 활용합니다. 필요한 모델이 설치본에 포함되어 인터넷 없이 처리합니다."
+          "문서 본문의 단어·구문을 찾아 일치한 페이지와 문장까지 표시",
+          "PDF·HWP는 페이지, PPT는 슬라이드, Excel은 시트 단위로 근거를 보여 줌",
+          "선택형 오프라인 OCR로 스캔 PDF와 이미지 속 글자도 검색"
         ]
       },
       {
-        "title": "AI도우미 활용",
+        "title": "여러 문서를 대신 읽는 AI 비서 Luna",
         "paragraphs": [
-          "문서를 바탕으로 질문과 답변을 합니다.",
-          "외부 AI 서비스나 사내 AI 서버를 연결할 수 있습니다. 조직에 사내 AI가 설정되어 있으면 직원은 개인 인증 키 없이 이용합니다."
+          "“분기 보고서 찾아서 핵심만 정리해줘” 한 문장으로 검색 → 읽기 → 요약까지",
+          "두 문서 비교, 파일을 첨부한 질문, 답변에 인용된 PDF 페이지 바로 열기"
+        ]
+      },
+      {
+        "title": "찾은 문서를 그 자리에서 편집",
+        "paragraphs": [
+          "내장 편집기(SAMI Writer · Spread · Present · PDF)로 찾은 문서를 바로 열고 저장"
+        ]
+      },
+      {
+        "title": "내 PC 안에서 처리하는 보안",
+        "paragraphs": [
+          "인덱싱 · 검색 · OCR은 파일을 외부로 올리지 않고 PC 안에서 처리",
+          "로컬 LLM(Ollama · LM Studio)을 연결하면 인터넷 없이도 AI 기능 사용"
+        ]
+      },
+      {
+        "title": "원하는 AI 모델을 자유롭게",
+        "paragraphs": [
+          "빠른 · 정밀 검색은 LLM 없이도 동작 — Luna와 AI 작업에만 LLM 사용",
+          "SAMI-GPT · OpenAI · Claude · Gemini · OpenRouter · Ollama · LM Studio · OpenAI 호환 연결"
+        ]
+      },
+      {
+        "title": "업무 도구와 외부 연동",
+        "paragraphs": [
+          "일정 관리 · 할 일 앱과 바탕화면 위젯, Luna에게 말로 일정 · 할 일 등록",
+          "연결 센터(MCP)로 웹 검색 · 법령 · HWPX · Excel · Word 문서 도구 연결"
+        ]
+      },
+      {
+        "title": "설치와 운영 환경",
+        "paragraphs": [
+          "Windows 10/11 64비트(x64) 지원, 온라인 · 오프라인 설치 파일 제공으로 폐쇄망 배포 가능",
+          "기관 · 기업 단위 사이트 라이선스 도입 가능"
         ]
       }
     ]
@@ -932,64 +980,6 @@ const products=[
     ]
   },
   {
-    "name": "Findex",
-    "color": "#267689",
-    "cat": "ai",
-    "icon": "<span class=\"security-wordmark\">Findex</span>",
-    "desc": "파일명부터 본문까지 찾아보는 PC 문서 검색.",
-    "tags": [
-      "PC 문서 검색",
-      "본문 검색"
-    ],
-    "items": [
-      "이름 일부만 기억나도, 바로",
-      "파일명 · 키워드를 즉시 매칭해 문서를 바로 찾기",
-      "종류 · 위치별로 모아 보고, 오른쪽에서 바로 미리보기",
-      "기억나는 문장 하나로",
-      "문서 본문의 단어 · 구문을 찾아 일치 페이지와 스니펫까지 표시",
-      "선택형 오프라인 OCR로 스캔 PDF도 검색",
-      "여러 문서를 대신 읽는 Luna",
-      "여러 문서를 스스로 검색하고 근거를 비교해 요약",
-      "대화로 지시하면 정리한 결과를 파일로 저장",
-      "원하는 AI 모델을 자유롭게",
-      "빠른 · 정밀 검색은 LLM 없이도 동작 — Luna와 AI 작업에만 LLM 사용",
-      "SAMI-GPT · OpenAI · Claude · Gemini · OpenRouter · Ollama · LM Studio · OpenAI 호환 연결"
-    ],
-    "url": "https://sami-luna.com/",
-    "manufacturer": "SamiTech",
-    "homepage": "https://sami-luna.com/product/findex",
-    "introSections": [
-      {
-        "title": "이름 일부만 기억나도, 바로",
-        "paragraphs": [
-          "파일명 · 키워드를 즉시 매칭해 문서를 바로 찾기",
-          "종류 · 위치별로 모아 보고, 오른쪽에서 바로 미리보기"
-        ]
-      },
-      {
-        "title": "기억나는 문장 하나로",
-        "paragraphs": [
-          "문서 본문의 단어 · 구문을 찾아 일치 페이지와 스니펫까지 표시",
-          "선택형 오프라인 OCR로 스캔 PDF도 검색"
-        ]
-      },
-      {
-        "title": "여러 문서를 대신 읽는 Luna",
-        "paragraphs": [
-          "여러 문서를 스스로 검색하고 근거를 비교해 요약",
-          "대화로 지시하면 정리한 결과를 파일로 저장"
-        ]
-      },
-      {
-        "title": "원하는 AI 모델을 자유롭게",
-        "paragraphs": [
-          "빠른 · 정밀 검색은 LLM 없이도 동작 — Luna와 AI 작업에만 LLM 사용",
-          "SAMI-GPT · OpenAI · Claude · Gemini · OpenRouter · Ollama · LM Studio · OpenAI 호환 연결"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Wenex",
     "color": "#4b59a1",
     "cat": "ai",
@@ -1214,7 +1204,7 @@ const products=[
     ]
   }
 ];
-let filter='all',expanded=false;const representativeNames=['Microsoft','Adobe','Autodesk','한컴','ESTsoft','Tkita Caption','Where AI','Dream AI Search'];const expandSolutions=document.querySelector('#expand-solutions');const cards=document.querySelector('#cards'), search=document.querySelector('#search'), pd=document.querySelector('#product-dialog'), cd=document.querySelector('#consult-dialog');
+let filter='all',expanded=false;const representativeNames=['Microsoft','Adobe','Autodesk','한컴','ESTsoft','Tkita Caption','Findex','Dream AI Search'];const expandSolutions=document.querySelector('#expand-solutions');const cards=document.querySelector('#cards'), search=document.querySelector('#search'), pd=document.querySelector('#product-dialog'), cd=document.querySelector('#consult-dialog');
 const escapeHtml=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 const solutionIconPaths={
@@ -1230,7 +1220,6 @@ const solutionIconPaths={
 'Tkita Talk':'<path d="M3 4h12v9H8l-5 4V4Zm13 5h5v12l-5-4h-5v-2"/>',
 'Tkita Mobile':'<rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 5h4m-5 7v3m3-6v8m3-6v4M11 19h2"/>',
 'Tkita Meet':'<rect x="3" y="5" width="12" height="14" rx="2"/><path d="m15 10 6-4v12l-6-4M6 10h6m-6 4h4"/>',
-'Where AI':'<path d="M10 5a3 3 0 0 0-5 3 3 3 0 0 0-2 5 4 4 0 0 0 4 6 3 3 0 0 0 5 1V5a3 3 0 0 0-2-2m4 2a3 3 0 0 1 5 3 3 3 0 0 1 2 5 4 4 0 0 1-4 6 3 3 0 0 1-5 1M6 9l3 2m-5 4h4m7-7h3m-3 5h5m-4 4h2"/>',
 'Dream AI Search':'<circle cx="10" cy="10" r="7"/><path d="m15 15 6 6M6 10h8m-4-4v8"/>',
 'SamiGPT':'<path d="M3 4h14v11H9l-6 5V4Zm15 5h3v12l-5-4h-4"/>',
 'Flove':'<rect x="2" y="3" width="6" height="6" rx="1"/><rect x="16" y="15" width="6" height="6" rx="1"/><rect x="16" y="3" width="6" height="6" rx="1"/><path d="M8 6h8M5 9v9h11"/>',
